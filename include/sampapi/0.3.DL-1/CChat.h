@@ -43,7 +43,7 @@ public:
     D3DCOLOR              m_debugColor; // 0xFFA9C4E4
     long                  m_nWindowBottom;
     struct SAMPAPI_EXPORT ChatEntry {
-        __int32  m_timestamp;
+        int  m_timestamp;
         char     m_szPrefix[28];
         char     m_szText[144];
         char     unused[64];
